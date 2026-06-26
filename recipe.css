@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(243 229 216);
+}
+.mainimg{
+    display: block;
+    max-width: 100%;
+    border-radius: 21px;
+    
+}
+section {
+    /* height: 641px; */
+    /* display: flex; */
+    align-items: center;
+    /* background-color: white; */
+}
+.prep-time {
+  background-color:rgb(255 247 252);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.box {
+    background-color: white;
+    height: auto;
+    width: 450px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* text-align: center;
+    cursor: pointer;
+    text-align: start;
+     */
+}
+
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding:15px;
+}
+
+tr:not(:last-child) {
+    border-bottom:1px solid #ddd;
+}
+
+td:last-child{
+    color:brown;
+    font-weight:bold;
+}
